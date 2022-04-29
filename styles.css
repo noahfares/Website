@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Google Sans';
+    color: rgb(97, 91, 91);
+}
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    font-family: 'Google Sans';
+}
+.nav a:hover {
+    color: rgb(167, 146, 146);
+}
+
+.navMain li {
+    padding: 0 4%;
+}
+.navMain {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.mainHeader {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}

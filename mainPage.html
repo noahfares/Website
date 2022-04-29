@@ -3,23 +3,26 @@
 
 <head>
     <title>Noah Fares</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 
-<body>
-    <header>
-        <nav>
-            <li> <a href="mainPage.html"> Home </a> </li>
-            <li> <a href="about.html"> About </a> </li>
-            <li> <a href="timeline.html"> Timeline </a> </li>
-            <li> <a href="projects.html"> Projects </a> </li>
-            <li> <a href="contact.html"> Contact </a> </li>
-        </nav>
-        <hr>
-    </header>
 
+<body>
+    <header class="mainHeader">
+        <nav class="nav navMain">
+            <ul>
+                <li> <a href="#main"> Home </a> </li>
+                <li> <a href="#about"> About </a> </li>
+                <li> <a href="#timeline"> Timeline </a> </li>
+                <li> <a href="#projects"> Projects </a> </li>
+                <li> <a href="#contact"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+  <!--This is the Main section-->
     <section>
-        <h1> Welcome to my Website </h1>
+        <h1 id="main"> Welcome to my Website </h1>
         <br>
 
         <h4> A little bit about me... </h4>
@@ -30,21 +33,49 @@
         </p>
     </section>
 
+    <!--This is the About section-->
+    <section>
+        <h1 id="about"> About Me </h1>
+        <br>
+    </section>
+
+    <!--This is the Timline section-->
+    <section>
+        <h1 id="timeline"> My Timeline </h1>
+        <br>
+    </section>
+
+    <!--This is the Projects section-->
+    <section>
+        <h1 id="projects"> Projects I have done </h1>
+        <br>
+
+    </section>
+
+    <!--This is the Contact section-->
+    <section>   
+        <h1 id="contact"> Contact Me </h1>
+        <br>
+
+    </section>
+
+
     <button> Back to Top </button>
 </body>
+
 
 
 <footer>
     <hr>
 
-    <nav>
+    <nav class="nav navMain">
         <section>
             <ul>
-                <li> <a href="mainPage.html"> Home </a> </li>
-                <li> <a href="about.html"> About </a> </li>
-                <li> <a href="timeline.html"> Timeline </a> </li>
-                <li> <a href="projects.html"> Projects </a> </li>
-                <li> <a href="contact.html"> Contact </a> </li>
+                <li> <a href="#main"> Home </a> </li>
+                <li> <a href="#about"> About </a> </li>
+                <li> <a href="#timeline"> Timeline </a> </li>
+                <li> <a href="#projects"> Projects </a> </li>
+                <li> <a href="#contact"> Contact </a> </li>
             </ul>
         </section>
 
@@ -52,10 +83,13 @@
             <h3> Socials </h3>
             <div>
                 <ul>
-                    <li> <a href="https://github.com/noahfares"> <img src="Icons/github.png"> </a></li>
-                    <li> <a href="https://www.instagram.com/noah_fares/"> <img src="Icons/instagram.png"> </a></li>
-                    <li> <a href="https://www.linkedin.com/in/noahfares/"> <img src="Icons/linkedin.png"> </a></li>
-                    <li> <a href="https://mail.google.com/mail/u/?authuser=noahfares@gmail.com"> <img src="Icons/gmail.jpg"> </a></li>
+                    <li> <a href="https://github.com/noahfares" target="_blank"> <img src="Icons/github.png"> </a></li>
+                    <li> <a href="https://www.instagram.com/noah_fares/" target="_blank"> <img
+                                src="Icons/instagram.png"> </a></li>
+                    <li> <a href="https://www.linkedin.com/in/noahfares/" target="_blank"> <img
+                                src="Icons/linkedin.png"> </a></li>
+                    <li> <a href="https://mail.google.com/mail/u/?authuser=noahfares@gmail.com" target="_blank"> <img
+                                src="Icons/gmail.jpg"> </a></li>
                 </ul>
             </div>
         </section>
@@ -63,6 +97,7 @@
 
     <div>&copy 2022 Noah Fares</div>
 </footer>
+
 
 
 </html>
